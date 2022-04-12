@@ -1,0 +1,86 @@
+body{
+    font-family:'work sans'
+}
+.text-blue{
+    color:#314584;
+}
+.text-red{
+    color: #ff3946;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+
+#principal{
+    background-image: url('img/background01.png');
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+}
+#principal img{
+    padding-left: 10px;
+    position: absolute;
+}
+.navbar-nav{
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+    margin: 15px;
+}
+.box-banner h1{
+    color: #314584;
+    font-size: 40px;
+    font-weight: 900;
+    width: 300px;
+    padding-top: 120px;
+}
+.box-banner h2{
+    font-size: 16px;
+    width: 450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight:normal;
+}
+#destaque img{
+    width: 450px;
+    padding-top: 20px;
+}
+.btn-red-rounded{
+    background-color: #ff3946;
+    border-radius: 40px;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #ff3946;
+}
+.btn-blue-mutet{
+    color: #314584;
+    background-color: transparent;
+    border-style: none;
+}
+.btn-red-mutet{
+    color: #ff3946;
+    background-color: transparent;
+    border-style: none;
+    align-items: center;
+}
+.btn-white{
+    color:#ff3946;
+    background-color:#fff;
+    font-size: 14px;
+    border-radius: 5px;
+    border-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: right;
+}
